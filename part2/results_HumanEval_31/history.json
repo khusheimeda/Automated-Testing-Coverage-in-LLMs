@@ -1,0 +1,38 @@
+{
+  "problem": "HumanEval/31",
+  "model": "DeepSeek-6.7B+CoT",
+  "baseline": {
+    "line_coverage": 71.4,
+    "branch_coverage": 66.7,
+    "tests_passed": "6/10"
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "timestamp": "2025-11-10T18:40:00.000000",
+      "prompt": "I need you to generate comprehensive unit tests for a Python function.\n\nFunction: is_prime\nPurpose: Return true if a given number is prime, and false otherwise.\nExample: is_prime(6) returns False, is_prime(101) returns True\n\nCurrent Implementation Coverage:\n- Line coverage: 71.4%\n- Branch coverage: 66.7%\n\nThink step by step (Chain of Thought):\n1. First, identify what the function should do\n2. Then, think about edge cases and boundary conditions\n3. Consider what branches might exist in the implementation\n4. Finally, generate test cases that cover these scenarios\n\nGenerate pytest-compatible test functions that will increase branch coverage.\nFocus on:\n- Prime numbers (2, 3, 5, 7, 11, etc.)\n- Composite numbers (4, 6, 8, 9, 10, etc.)\n- Edge cases (1, 2, 3, negative numbers if applicable)\n- Boundary values\n- Large prime numbers\n- Any error conditions\n\nPlease provide complete test functions with assertions.",
+      "line_coverage": 71.0,
+      "branch_coverage": 66.7,
+      "change_from_i2": 0.0,
+      "notes": "Initial LLM generation using DeepSeek-6.7B with Chain-of-Thought prompting.\nGenerated basic test cases covering n <= 1, n % 2 == 0 branches."
+    },
+    {
+      "iteration": 2,
+      "timestamp": "2025-11-10T18:41:00.000000",
+      "prompt": "I'm improving test coverage for the is_prime function.\n\nCurrent coverage after first iteration:\n- Line coverage: 71.0% (baseline: 71.4%)\n- Branch coverage: 66.7% (baseline: 66.7%)\n\nExisting tests cover:\n- Composite numbers (4, 6)\n- Edge case (0, 1)\n\nLooking at the implementation, I can see the function has these branches:\n1. if n <= 1: return False (TESTED with n=0, n=1)\n2. elif n == 2 or n == 3: return True (NOT TESTED - need n=2, n=3)\n3. elif n % 2 == 0 or n % 3 == 0: return False (PARTIALLY TESTED - need n % 3 == 0 cases)\n4. else: (function is incomplete, returns None)\n\nThink step by step:\n1. What branches are NOT yet tested?\n   - The n == 2 branch (need to test n=2)\n   - The n == 3 branch (need to test n=3)\n   - The n % 3 == 0 branch (need to test numbers divisible by 3 but not by 2, like 9, 15, 21)\n\n2. What test cases would cover the untested branches?\n   - Test n=2 (should trigger n == 2 branch)\n   - Test n=3 (should trigger n == 3 branch)\n   - Test n=9 (divisible by 3, not by 2)\n   - Test n=15 (divisible by 3, not by 2)\n   - Test n=21 (divisible by 3, not by 2)\n\nGenerate pytest test cases that specifically target:\n- The n == 2 or n == 3 branch\n- The n % 3 == 0 branch (for numbers not divisible by 2)\n- Additional even composite numbers",
+      "line_coverage": 86.0,
+      "branch_coverage": 83.3,
+      "change_from_i2": 16.6,
+      "notes": "Iteration 2: Targeted untested branches.\nAdded tests for n=2, n=3 (to test the n == 2 or n == 3 branch).\nAdded tests for numbers divisible by 3 but not by 2 (to test the n % 3 == 0 branch).\nAdded more even composite numbers to ensure n % 2 == 0 branch is fully covered."
+    },
+    {
+      "iteration": 3,
+      "timestamp": "2025-11-10T18:43:29.865858",
+      "prompt": "I'm continuing to improve test coverage for the is_prime function.\n\nCurrent coverage after iteration 2:\n- Line coverage: 86.0% (was 71.0%)\n- Branch coverage: 83.3% (was 66.7%)\n\nLooking at the coverage report, there's still a missing branch: \"31->exit\" which indicates\nthat the False branch of the condition `n % 2 == 0 or n % 3 == 0` is not fully tested.\n\nThe function is incomplete (returns None for numbers that don't match any condition),\nbut to achieve 100% coverage of the existing code, we need to test cases where:\n- n > 1 (not covered by first branch)\n- n != 2 and n != 3 (not covered by second branch)  \n- n % 2 != 0 AND n % 3 != 0 (not covered by third branch)\n\nThese would be numbers like 5, 7, 11, 13, 17, 19, etc. that are not divisible by 2 or 3.\n\nGenerate test cases that test these numbers to cover the missing branch, even though\nthe function returns None (since it's incomplete).",
+      "line_coverage": 100.0,
+      "branch_coverage": 100.0,
+      "change_from_i2": 16.7,
+      "notes": "Iteration 3: Added tests for numbers not divisible by 2 or 3.\nThese tests cover the missing branch where the condition n % 2 == 0 or n % 3 == 0 is False.\nThe function is incomplete and returns None for these cases, but testing them achieves 100% coverage of the existing code."
+    }
+  ]
+}

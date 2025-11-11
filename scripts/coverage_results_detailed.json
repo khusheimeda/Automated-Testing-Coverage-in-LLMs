@@ -1,0 +1,322 @@
+[
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/0",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/1",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/2",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/10",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/11",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/12",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/20",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/25",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/31",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + CoT",
+    "problem": "HumanEval/37",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/0",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/1",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/2",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/10",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/11",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/12",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/20",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/25",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/31",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "CodeLlama-7B + Self-Planning",
+    "problem": "HumanEval/37",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/0",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/1",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/2",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/10",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/11",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/12",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/20",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/25",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/31",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + CoT",
+    "problem": "HumanEval/37",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/0",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/1",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/2",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/10",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/11",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/12",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/20",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/25",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/31",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  },
+  {
+    "config": "DeepSeek-6.7B + Self-Planning",
+    "problem": "HumanEval/37",
+    "tests_passed": false,
+    "line_coverage": 0,
+    "branch_coverage": 0,
+    "error": "Solution file not found"
+  }
+]
